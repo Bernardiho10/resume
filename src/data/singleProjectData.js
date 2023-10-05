@@ -1,6 +1,6 @@
 // Import images
 
-export const projectData = [
+export const singleProjectData = [
   {
     ProjectHeader: {
       title: "Wordpress Website",
