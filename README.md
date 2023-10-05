@@ -47,7 +47,7 @@ Thank you for visiting my portfolio repository. I hope you find it informative a
 
 
 # Technologies Used: React & TailwindCSS Portfolio - With Dark Mode
-![React-TailwindCSS-Portfolio](https://github.com/Bernardiho10/portfolio/blob/main/Portfolio%20Screenshot.PNG)
+![React-TailwindCSS-Portfolio](/Portfolio%20Screenshot.PNG)
 
 ## Features
 
