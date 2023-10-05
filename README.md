@@ -35,9 +35,9 @@ You can find a comprehensive list of my skills and experience in the [Skills](sk
 
 If you would like to get in touch with me, please feel free to reach out via email or connect with me on professional networking platforms.
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/yourname/)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
+- Email: [beranrdarikuoko@example.com](mailto:beranrdarikuoko@example.com)
+- LinkedIn: [Bernard Ariku Oko](https://www.linkedin.com/in/bernard-oko-a55378275/)
+- Twitter: [@yourhandle](https://twitter.com/bernard_iho)
 
 I'm open to collaboration, freelance opportunities, and discussing exciting projects. Let's connect and create something amazing together!
 
