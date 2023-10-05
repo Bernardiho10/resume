@@ -232,3 +232,10 @@ body {
 		opacity: 0.5;
 	}
 }
+
+
+/* NotFound.css */
+.not-found {
+  text-align: center;
+  margin-top: 10%;
+}
