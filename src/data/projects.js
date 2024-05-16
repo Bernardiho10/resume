@@ -27,10 +27,10 @@
 // export default projectsData;
 // Import images
 import WebImage1 from "../images/web-project-1.jpg";
-import WebImage2 from "../images/web-project-2.jpg";
-import MobileImage1 from "../images/mobile-project-1.jpg";
-import MobileImage2 from "../images/mobile-project-2.jpg";
-import UIImage1 from "../images/ui-project-1.jpg";
+import WebImage2 from "../images/efiko_web_home.jpg";
+import MobileImage1 from "../images/unifiedevents.PNG";
+import MobileImage2 from "../images/PMS.png";
+import UIImage1 from "../images/mobile-project-1.jpg";
 import UIImage2 from "../images/ui-project-2.jpg";
 
 export const projectsData = [
@@ -47,9 +47,9 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Phoenix Digital Agency",
-    category: "Mobile Application",
-    img: MobileImage2,
+    title: "Unified Events",
+    category: "Web Application",
+    img: MobileImage1,
   },
   {
     id: 3,
@@ -59,19 +59,19 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "Cloud Storage Platform",
-    category: "UI/UX Design",
+    title: "Cloud Management",
+    category: "Web Application",
     img: UIImage2,
   },
   {
     id: 5,
-    title: "React Social App",
+    title: "Property Management Application(PMS)",
     category: "Mobile Application",
-    img: MobileImage1,
+    img: MobileImage2,
   },
   {
     id: 6,
-    title: "Apple Design System",
+    title: "Disney Clone Application",
     category: "Web Application",
     img: WebImage1,
   },
