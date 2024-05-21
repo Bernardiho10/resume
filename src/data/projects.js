@@ -26,11 +26,11 @@
 // };
 // export default projectsData;
 // Import images
-import WebImage1 from "../images/web-project-1.jpg";
+import WebImage1 from "../images/effient_express.JPG";
 import WebImage2 from "../images/efiko_web_home.jpg";
 import MobileImage1 from "../images/unifiedevents.PNG";
 import MobileImage2 from "../images/PMS.png";
-import UIImage1 from "../images/mobile-project-1.jpg";
+import UIImage1 from "../images/bodymotionphysio.PNG";
 import UIImage2 from "../images/ui-project-2.jpg";
 
 export const projectsData = [
@@ -53,8 +53,8 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Project Management UI",
-    category: "UI/UX Design",
+    title: "Bodymotionsphysio",
+    category: "Wordpress, Web Application",
     img: UIImage1,
   },
   {
@@ -71,7 +71,7 @@ export const projectsData = [
   },
   {
     id: 6,
-    title: "Disney Clone Application",
+    title: "Efficient Express",
     category: "Web Application",
     img: WebImage1,
   },
