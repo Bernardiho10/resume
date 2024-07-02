@@ -26,7 +26,6 @@ const AboutMeBio = () => {
     </div>
     <div className="font-general-regular w-full sm:w-3/4 text-left">
     <h1 className="font-general h-10 mt-20 mb-10">CERTIFICATIONS</h1>
-        
         {
           certificatesData.map((cert) =>{
             return(

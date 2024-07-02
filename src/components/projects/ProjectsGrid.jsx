@@ -14,6 +14,7 @@ const ProjectsGrid = () => {
     setSelectProject,
     selectProjectsByCategory,
   } = useContext(ProjectsContext);
+  console.log(projects);
 
   return (
     <section className="py-5 sm:py-10 mt-5 sm:mt-10">
@@ -95,12 +96,13 @@ const ProjectsGrid = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
         {selectProject
-          ? selectProjectsByCategory.map((project) => (
+          ? selectProjectsByCategory.map((id, project) => (
               <ProjectSingle
-                title={project.title}
-                category={project.category}
-                image={project.img}
-                key={project.id}
+                title={project.ProjectHeader.title}
+                category={project.ProjectHeader.title}
+                image={project.ProjectImages[0].img}
+                key={id}
+                id={id}
               />
             ))
           : searchProject
@@ -110,16 +112,20 @@ const ProjectsGrid = () => {
                 category={project.category}
                 image={project.img}
                 key={project.id}
+                id={project.id}
               />
             ))
-          : projects.map((project) => (
-              <ProjectSingle
-                title={project.title}
-                category={project.category}
-                image={project.img}
-                key={project.id}
+          : projects.map((project, id) => {
+              return (
+                <ProjectSingle
+                title={project.ProjectHeader.title}
+                category={project.ProjectHeader.title}
+                image={project.ProjectImages[0].img}
+                key={id}
+                id={id}
               />
-            ))}
+              )
+        })}
       </div>
     </section>
   );

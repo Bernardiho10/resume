@@ -6,6 +6,8 @@ import { SingleProjectProvider } from "../context/SingleProjectContext";
 import { motion } from "framer-motion";
 
 const ProjectSingle = () => {
+  
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -21,7 +23,7 @@ const ProjectSingle = () => {
         <ProjectHeader />
         <ProjectGallery />
         <ProjectInfo />
-        <ProjectRelatedProjects />
+        {/* <ProjectRelatedProjects /> */}
       </SingleProjectProvider>
     </motion.div>
   );

@@ -3,7 +3,7 @@ import { FiPhone, FiMapPin, FiMail } from "react-icons/fi";
 const contacts = [
   {
     id: 1,
-    name: "Y6B, Patrick Fluret Street, SunnyVale, Abuja, Nigeria.",
+    name: "No.8, Dar Es Salaam Wuse 2, Abuja, Nigeria.",
     icon: <FiMapPin />,
   },
   {

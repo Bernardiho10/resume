@@ -1,4 +1,4 @@
-import { useState, createContext } from "react";
+import { useState, createContext, useMemo } from "react";
 import { projectsData } from "../data/projects";
 
 // Create projects context
@@ -7,25 +7,25 @@ export const ProjectsContext = createContext();
 // Create the projects context provider
 export const ProjectsProvider = (props) => {
   const [projects, setProjects] = useState(projectsData);
+  //console.log(projects[0])
   const [searchProject, setSearchProject] = useState("");
   const [selectProject, setSelectProject] = useState("");
 
   // Search projects by project title
-  const searchProjectsByTitle = projects.filter((item) => {
-    const result = item.title
-      .toLowerCase()
-      .includes(searchProject.toLowerCase())
-      ? item
-      : searchProject === ""
-      ? item
-      : "";
-    return result;
-  });
+  const searchProjectsByTitle = useMemo(() => {
+    return projects.filter((item) => {
+      console.log(item.ProjectHeader.title.toLowerCase())
+      const titleMatch = item.ProjectHeader.title.toLowerCase().includes(searchProject.toLowerCase());
+      if (titleMatch || searchProject === "") return item;
+      return "";
+    });
+  }, [projects, searchProject]);
+
 
   // Select projects by project category
   const selectProjectsByCategory = projects.filter((item) => {
     let category =
-      item.category.charAt(0).toUpperCase() + item.category.slice(1);
+      item.ProjectHeader.title.charAt(0).toUpperCase() + item.ProjectHeader.title.slice(1);
     return category.includes(selectProject);
   });
 
