@@ -115,7 +115,7 @@ const ProjectsGrid = () => {
                 id={id}
               />
             ))
-          : projects ?  <Error /> : projects.map((project, id) => {
+          : projects ? projects.map((project, id) => {
               return (
                 <ProjectSingle
                 title={project.ProjectHeader.title}
@@ -126,7 +126,7 @@ const ProjectsGrid = () => {
               />
               )
         })
-        
+        : <Error /> 
         }
       </div>
     </section>
