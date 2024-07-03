@@ -2,7 +2,7 @@ export const aboutMeData = [
   {
     id: 1,
     bio: `
-		Bernard Ariku Oko is a seasoned Full Stack Engineer with over 7 years of experience specializing in MERN stack development. Based in Abuja, Nigeria, I excel in architecting high-performance web applications using MongoDB, Express.js, React.js, and Node.js.
+		Bernard Ariku Oko is a seasoned Full Stack Engineer with over 6 years of experience specializing in MERN stack development. Based in Abuja, Nigeria, I excel in architecting high-performance web applications using MongoDB, Express.js, React.js, and Node.js.
 
 		`,
   },
