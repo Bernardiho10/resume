@@ -8,7 +8,8 @@ const fetchProjectData = async () => {
     console.log('Fetched data:', data);
     return data;
   } catch (error) {
-    console.error("Error fetching single project data:", error);
+    console.log(error)
+    // console.error("Error fetching single project data:", error);
   } 
 };
 

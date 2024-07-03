@@ -9,7 +9,7 @@ export const aboutMeData = [
   {
     id: 2,
     bio: `
-		With a proven track record of enhancing operational efficiency, increasing user engagement, and optimizing application performance, I have consistently delivered impactful solutions across various industries including healthcare, education, and freelance marketplaces.
+		A proven track record of enhancing operational efficiency, increasing user engagement, and optimizing application performance, I have consistently delivered impactful solutions across various industries including healthcare, education, and freelance marketplaces.
 		`,
   },
   {
@@ -17,17 +17,17 @@ export const aboutMeData = [
     bio: `My comprehensive technical expertise spans: 
 Front-end:
 
-HTML, CSS, JavaScript
-Reactjs, Material UI, Tailwind, Bootstrap, React Native
+HTML, CSS, JavaScript,
+Reactjs, Material UI, Tailwind, Bootstrap, React Native.
 
 Back-end:
 
 Java, C++, Go, Python, PHP
-Laravel, Expressjs, Nodejs 
+Laravel, Expressjs, Nodejs. 
 
 DevOps:
 
-Docker, Kubernetes, Jenkins, Expo
+Docker, Kubernetes, Jenkins, Expo, Supabase.
 
 Testing:
 
@@ -35,27 +35,25 @@ Jest
 
 Databases:
 
-MongoDB, MySQL, Postgres, Firebase, Supabase
+MongoDB, MySQL, Postgres, Firebase.
 
 Version Control:
 
-Git
+Git.
 
 Collaboration & Communication:
 
-Slack, Jira, Trello
+Slack, Jira, Trello.
 
 Additional Skills:
 
-Communication and collaboration
-Problem-solving and critical thinking
-Adaptability and learning agility
-
-I hold a BSc in Electronic Computer Technology from the University of Calabar and Microsoft Certified in Azure AI Fundamentals. I am currently pursuing further certifications in Microsoft AI Engineer Associate and Microsoft Azure AI Solution, demonstrating my commitment to continuous learning.
+Communication and collaboration,
+Problem-solving and critical thinking,
+Adaptability and learning agility.
 `
   },
   {
     id: 4,
-    bio: `Beyond my professional pursuits, I believe in maintaining a balanced lifestyle. I enjoys exercising my body to stay physically fit and reading to exercise my mind, I constantly seek new knowledge and perspectives.`
+    bio: `I hold a BSc in Electronic Computer Technology from the University of Calabar and Microsoft Certified in Azure AI Fundamentals. I am currently pursuing further certifications in Microsoft AI Engineer Associate and Microsoft Azure AI Solution, demonstrating my commitment to continuous learning. Beyond my professional pursuits, I believe in maintaining a balanced lifestyle. I enjoys exercising my body to stay physically fit and reading to exercise my mind, I constantly seek new knowledge and perspectives.`
   }
 ];

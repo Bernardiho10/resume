@@ -3,6 +3,7 @@ import { FiSearch } from "react-icons/fi";
 import ProjectSingle from "./ProjectSingle";
 import { ProjectsContext } from "../../context/ProjectsContext";
 import ProjectsFilter from "./ProjectsFilter";
+import Error from "../../components/Error"
 
 const ProjectsGrid = () => {
   const {
@@ -14,7 +15,6 @@ const ProjectsGrid = () => {
     setSelectProject,
     selectProjectsByCategory,
   } = useContext(ProjectsContext);
-  console.log(projects);
 
   return (
     <section className="py-5 sm:py-10 mt-5 sm:mt-10">
@@ -106,16 +106,16 @@ const ProjectsGrid = () => {
               />
             ))
           : searchProject
-          ? searchProjectsByTitle.map((project) => (
+          ? searchProjectsByTitle.map((id, project) => (
               <ProjectSingle
                 title={project.title}
                 category={project.category}
                 image={project.img}
-                key={project.id}
-                id={project.id}
+                key={id}
+                id={id}
               />
             ))
-          : projects.map((project, id) => {
+          : projects ?  <Error /> : projects.map((project, id) => {
               return (
                 <ProjectSingle
                 title={project.ProjectHeader.title}
@@ -125,7 +125,9 @@ const ProjectsGrid = () => {
                 id={id}
               />
               )
-        })}
+        })
+        
+        }
       </div>
     </section>
   );
