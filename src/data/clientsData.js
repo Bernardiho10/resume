@@ -5,7 +5,7 @@ import Booksembassy from "../images/brands/booksembassy.png";
 import Efikofreelance from "../images/brands/efikofreelance.PNG";
 import Fiverr from "../images/brands/fiverr.png";
 
-export const clientsHeading = "Some of the brands that trust me";
+export const clientsHeading = "CLIENTS PAST AND PRESENT";
 
 export const clientsData = [
   {

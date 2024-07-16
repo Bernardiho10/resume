@@ -15,31 +15,38 @@ export const aboutMeData = [
   {
     id: 3,
     bio: `My comprehensive technical expertise spans: 
-Front-end:
+Web Developement:
 
 HTML, CSS, JavaScript,
-Reactjs, Material UI, Tailwind, Bootstrap, React Native.
+Reactjs, Nextjs, Typescript, Nodejs, Redux, Rxjs, Threejs, Material UI, Tailwind, Bootstrap, Laravel.
 
-Back-end:
+CMS:
 
-Java, C++, Go, Python, PHP
-Laravel, Expressjs, Nodejs. 
+Wordpress.
+
+OOP:
+
+Java, C++, Python, Spring MVC.
+
+Mobile Development: 
+
+React Native, Expo.
 
 DevOps:
 
-Docker, Kubernetes, Jenkins, Expo, Supabase.
+Docker, Kubernetes, Jenkins.
 
 Testing:
 
-Jest
+Jest, Cypress, Jasmine.
 
 Databases:
 
-MongoDB, MySQL, Postgres, Firebase.
+MongoDB, MySQL, Postgres.
 
 Version Control:
 
-Git.
+Git, Github.
 
 Collaboration & Communication:
 
