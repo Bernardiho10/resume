@@ -14,7 +14,6 @@ export const ProjectsProvider = (props) => {
   // Search projects by project title
   const searchProjectsByTitle = useMemo(() => {
     return projects.filter((item) => {
-      console.log(item.ProjectHeader.title.toLowerCase())
       const titleMatch = item.ProjectHeader.title.toLowerCase().includes(searchProject.toLowerCase());
       if (titleMatch || searchProject === "") return item;
       return "";
@@ -24,6 +23,7 @@ export const ProjectsProvider = (props) => {
 
   // Select projects by project category
   const selectProjectsByCategory = projects.filter((item) => {
+    
     let category =
       item.ProjectHeader.title.charAt(0).toUpperCase() + item.ProjectHeader.title.slice(1);
     return category.includes(selectProject);
