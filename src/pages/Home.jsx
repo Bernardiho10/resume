@@ -3,11 +3,13 @@ import AppBanner from "../components/shared/AppBanner";
 import ProjectsGrid from "../components/projects/ProjectsGrid";
 import { ProjectsProvider } from "../context/ProjectsContext";
 import Button from "../components/reusable/Button";
+import About from "./AboutMe";
+
 
 const Home = () => {
   return (
     <div className="container mx-auto">
-      <AppBanner></AppBanner>
+      <About />
 
       <ProjectsProvider>
         <ProjectsGrid></ProjectsGrid>

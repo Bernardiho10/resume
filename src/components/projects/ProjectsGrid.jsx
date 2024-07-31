@@ -21,14 +21,14 @@ const ProjectsGrid = () => {
   const handleSearch = (e) => {
     const searchValue = e.target.value;
     setSearchProject(searchValue);
-    setSelectProject(""); // Clear category selection when searching
+    setSelectProject(""); 
   };
 
   const handleCategorySelect = (value) => {
     setSelectProject(value);
-    setSearchProject(""); // Clear search when selecting a category
+    setSearchProject(""); 
     if (searchInputRef.current) {
-      searchInputRef.current.value = ""; // Clear search input field
+      searchInputRef.current.value = ""; 
     }
   };
 
@@ -48,7 +48,7 @@ const ProjectsGrid = () => {
     <section className="py-5 sm:py-10 mt-5 sm:mt-10">
       <div className="text-center">
         <p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-          Projects portfolio
+          PROJECTS 
         </p>
       </div>
 

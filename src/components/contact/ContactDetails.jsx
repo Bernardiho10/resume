@@ -3,18 +3,13 @@ import { FiPhone, FiMapPin, FiMail } from "react-icons/fi";
 const contacts = [
   {
     id: 1,
-    name: "No.8, Dar Es Salaam Wuse 2, Abuja, Nigeria.",
+    name: "Abuja, Nigeria.",
     icon: <FiMapPin />,
   },
   {
     id: 2,
     name: "bernardarikuoko@gmail.com",
     icon: <FiMail />,
-  },
-  {
-    id: 3,
-    name: "+234 811 797 4441",
-    icon: <FiPhone />,
   },
 ];
 
