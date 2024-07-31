@@ -96,7 +96,7 @@ const AboutMeBio = () => {
             <p className="text-ternary-dark dark:text-ternary-light text-lg font-bold">
               {cert.title}
             </p>
-            <img className="rounded-lg" style={{width: '60%'}} src={cert.image} alt={cert.title} />
+            <img className="rounded-lg" src={cert.image} alt={cert.title} />
           </div>
         ))}
       </div>
