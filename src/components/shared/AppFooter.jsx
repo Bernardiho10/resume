@@ -11,7 +11,7 @@ const socialLinks = [
   {
     id: 1,
     icon: <FiGlobe />,
-    url: "https://github.com/Bernardiho10/portfolio",
+    url: "https://bernardarikuoko.vercel.app/",
   },
   {
     id: 2,
